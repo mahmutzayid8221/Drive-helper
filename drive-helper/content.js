@@ -242,7 +242,7 @@
     if (c.pdf > 0) parts.push('<span class="dh_chip dh_pdf">📄' + c.pdf + '</span>');
     if (c.video > 0) parts.push('<span class="dh_chip dh_video">🎬' + c.video + '</span>');
     if (c.audio > 0) parts.push('<span class="dh_chip dh_audio">🎵' + c.audio + '</span>');
-    if (c.image > 0) parts.push('<span class="dh_chip dh_image">🖼' + c.image + '</span>');
+    if (c.image > 0) parts.push('<span class="dh_chip dh_image">🖼️' + c.image + '</span>');
     if (c.doc > 0) parts.push('<span class="dh_chip dh_doc">📝' + c.doc + '</span>');
     if (c.other > 0) parts.push('<span class="dh_chip dh_other">📁' + c.other + '</span>');
 
@@ -493,3 +493,4 @@
     setTimeout(init, 500);
   }
 })();
+
